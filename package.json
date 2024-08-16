@@ -1,0 +1,23 @@
+{
+  "name": "layout-designer-project-56",
+  "version": "1.0.0",
+  "description": "Music-box project",
+  "main": "",
+  "scripts": {
+    "sass": "sass src/scss:dist/css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitazh12/layout-designer-project-56.git"
+  },
+  "author": "Nikita Zholnerovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitazh12/layout-designer-project-56/issues"
+  },
+  "homepage": "https://github.com/nikitazh12/layout-designer-project-56#readme",
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  }
+}

@@ -1,0 +1,103 @@
+//Переменные цветов
+$col-black:rgba(8, 2, 13, 1);
+$col-green: rgba(52, 193, 118, 1);
+$col-white: rgba(224, 224, 224, 1);
+$col-grey: rgba(202, 202, 202, 1);
+$col-dark-grey: rgba(60, 59, 61, 1);
+$col-orange: rgba(248, 146, 2, 1);
+$col-purple: rgba(83, 40, 161, 1);
+$col-brown: rgba(149, 57, 12, 1);
+
+//Обычный шрифт
+@font-face {
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+//Жирный шрифт
+@font-face {
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+//Базовые стили проекта
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	color: #cacaca;
+	background-color: #08020d;
+}
+//Стили для заголовков на Декстоп-версии
+@media (min-width: 1024px) {
+	h1 {
+		font-size: 60px;
+		line-height: 90px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 38px;
+		line-height: 57px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 45px;
+		font-weight: normal;
+
+		&.capitalize {
+			text-transform: capitalize;
+		}
+
+		&.capitalize.bold {
+			text-transform: capitalize;
+			font-weight: bold;
+		}
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: bold;
+
+		&.capitalize.bold {
+			text-transform: capitalize;
+			font-weight: bold;
+		}
+	}
+}
+
+//Стили для заголовка на Мобильной версии
+@media (max-width: 1023px) {
+	h1 {
+		font-size: 30px;
+		line-height: 45px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: bold;
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: bold;
+	}
+}
+
